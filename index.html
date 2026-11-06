@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08030d">
+  <title>Jardim das Rosas 🌹</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="book-scene">
+    <div class="book" id="book">
+      <!-- Frente: jardim de rosas -->
+      <section class="page page-front" aria-label="Jardim das Rosas">
+        <div class="scene">
+          <div class="nebula nebula-one"></div>
+          <div class="nebula nebula-two"></div>
+          <div id="stars" class="stars" aria-hidden="true"></div>
+
+          <header class="heading">
+            <span class="eyebrow">UM PEQUENO UNIVERSO</span>
+            <h1>Jardim das <em>Rosas</em></h1>
+            <p class="subtitle">Mesmo na escuridão, a beleza encontra um jeito de florescer.</p>
+            <div class="message">
+              Eu não posso te dar um buquê agora,<br>
+              mas fiz esse mini jardim de rosas<br>
+              para você, <em>meu Amor</em> <span class="heart">♡</span>
+            </div>
+            <div class="ornament"><span></span><b>✿</b><span></span></div>
+          </header>
+
+          <section id="garden" class="garden" aria-label="Jardim com rosas vermelhas"></section>
+
+          <div class="garden-controls">
+            <button id="waterButton" class="water-button" type="button">
+              <span>💧</span> Regar Rosas
+            </button>
+            <p id="waterCount" class="water-count">Regas: 0 / 5</p>
+            <p id="gardenStatus" class="garden-status">Florescendo sob o mesmo céu ✦</p>
+          </div>
+
+          <button id="musicButton" class="music-button" type="button">♫ Música</button>
+          <section id="musicPanel" class="music-panel" aria-label="Player de música">
+            <div class="track-name">Die With A Smile <small>Lady Gaga, Bruno Mars</small></div>
+            <iframe
+              title="Die With A Smile — Lady Gaga e Bruno Mars"
+              src="https://open.spotify.com/embed/track/2plbrEY59IikOBgBGLjaoe?utm_source=generator&theme=0"
+              width="100%" height="80" frameborder="0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"></iframe>
+            <small class="autoplay-note">Se a música não começar, aperte Play no Spotify.</small>
+          </section>
+
+          <button id="turnToLetter" class="turn-button" type="button">
+            Ler minha cartinha <span>♡</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Verso: carta -->
+      <section class="page page-back" aria-label="Cartinha para Becca">
+        <div class="letter-background">
+          <div class="letter-stars" aria-hidden="true"></div>
+          <article class="letter-card">
+            <div class="letter-top-flower">✿</div>
+            <p class="letter-eyebrow">UM CARINHO PRA VOCÊ</p>
+            <h2>Para Becca <span>🤍</span></h2>
+            <div class="letter-divider"><i></i><b>♡</b><i></i></div>
+
+            <div class="letter-text">
+              <p>Becca, eu só queria te lembrar do quanto você é importante pra mim. Mesmo que agora a gente seja só amigos, quero que saiba que eu vou continuar te perturbando e sendo carinhoso do mesmo jeitinho de sempre!</p>
+
+              <p>Quero que você saiba que, independente de qualquer coisa, seja algum problema entre a gente ou um assunto mais pessoal da sua vida, eu tô aqui pra você, sempre. Esse carinho enorme que eu sempre tive por você desde o comecinho continua o mesmo até hoje.</p>
+
+              <p>Conta comigo pra tudo. Um beijo, B! 🤍</p>
+            </div>
+
+            <div class="letter-signature">Com carinho, sempre ♡</div>
+            <div class="letter-bottom-flower">✿</div>
+          </article>
+          <button id="turnToGarden" class="turn-button back-turn-button" type="button">
+            <span>♡</span> Voltar ao jardim
+          </button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
